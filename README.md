@@ -1,1 +1,2 @@
 # roket-konvolusyon
+Konvolüsyon İşlemi bir resimdeki gürültüyü azaltmak amaçlı kullanılmaktadır. MxN boyutunda kullanıcıdan alınan bir gri seviyeli görüntüyü içeren matrisi, yine kullanıcıdan alınan kxk filtre matrisiyle konvolüsyon işlemi uygulayan algoritmanın kodunu yazınız. Sonuç M-k+1 x N-k+1 boyutunda yeni bir matris olacaktır. Konvolüsyon işlemi, filtreyi resim üzerinde gezdirerek filtrede sayılarla, pikselleri çarpıp toplar, toplamı filtrenin toplamına böler ve hesaplanan değeri uygulanan orta noktaya yazar.
