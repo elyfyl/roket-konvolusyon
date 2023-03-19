@@ -23,10 +23,10 @@ int main() {
     int M, N, k;
     int i, j;
 
-    printf("İmage matrisinin boyutunu girin (MxN): ");
+    printf("Image matrisinin boyutunu girin (MxN): ");
     scanf("%d %d", &M, &N);
     int image[M][N];
-    printf("İmage matrisinin elemanlarını girin (MxN): \n");
+    printf("Image matrisinin elemanlarını girin (MxN): \n");
     for (i = 0; i < M; i++) {
         for (j = 0; j < N; j++) {
             scanf("%d", &image[i][j]);
